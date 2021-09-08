@@ -125,14 +125,14 @@ class _BuatTagihanState extends State<BuatTagihan> {
                 color: Color(0xFF1A237E),
                 child:
                     // ignore: deprecated_member_use
-                    FlatButton(onPressed: () {
-                      Navigator.pop(context);
-                    }, 
-                    child: Text("KIRIM TAGIHAN",
-                    style: TextStyle(
-                      color: Colors.white
-                    ),
-                    )),
+                    FlatButton(
+                        onPressed: () {
+                          Navigator.pop(context);
+                        },
+                        child: Text(
+                          "KIRIM TAGIHAN",
+                          style: TextStyle(color: Colors.white),
+                        )),
               )
             ],
           ),

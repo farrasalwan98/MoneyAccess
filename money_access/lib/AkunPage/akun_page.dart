@@ -12,8 +12,8 @@ class AkunPage extends StatefulWidget {
 class _AkunPageState extends State<AkunPage> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return Container(
+      child: Scaffold(
         appBar: AppBar(
           title: Center(child: Text("Akun")),
           backgroundColor: Color(0xFF1A237E),
